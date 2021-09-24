@@ -1,0 +1,160 @@
+.explore-double {
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.explore-double h4 {
+    margin-top: 40px;
+}
+
+.explore-double p {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.explore-row {
+    width: 65%;
+    
+}
+
+.explore-buttons {
+    width: 115px;
+    height: 115px;
+    border: solid black 1px;
+    border-radius: 14px;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.explore-buttons img {
+    width: 40px;
+    margin: 0 auto;
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore-buttons span {
+    position: absolute;
+    bottom: 0;
+}
+
+.explore-word1 {
+    right: 20%;
+}
+
+.explore-word2 {
+    right: 30%;
+}
+
+.explore-word3 {
+    right: 20%;
+}
+
+.explore-word4 {
+    right: 25%;
+}
+
+.ellipse {
+    width: 50px;
+}
+
+.explore-icon {
+
+}
+.dollar-sign {
+
+}
+
+.payment-description {
+    margin: 125px 250px;
+    border: 2px rgb(197, 197, 197) solid;
+    border-radius: 20px;
+    
+}
+
+.payment-description div img {
+    margin: 150px 10px;
+    width: 500px;
+}
+
+.payment-infoboard {
+    background: rgb(3 66 241);
+    color: white;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+    padding-top: 90px;
+    padding-left: 50px;
+}
+
+.payment-infoboard h6 {
+    width: 55%;
+    margin-top: 30px;
+}
+
+.payment-infoboard div {
+    margin-top: 35px;
+}
+
+.payment-infoboard div p {
+    font-size: 13px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.paymentbutton {
+    width: 225px;
+    border-width: 2px;
+    border-radius: 7px;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.paymentbutton span {
+    margin-left: px;
+}
+
+#paymentbutton-img {
+    position: relative;
+    width: 32px;
+    height: auto;
+    filter: invert(1);
+    margin: 0 10px 0 0px;
+}
+
+.bus-solutions {
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.bus-solutions h5 {
+    font-weight: 700;
+}
+
+.solution-images div div {
+    width: 125px;
+    height: 125px;
+    border: 1px solid lightgrey;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.solution-image {
+    width: 70px;
+    margin-top: 35px;
+}
+
+.solution-quad .col {
+    
+}
+
+.solution-quad div div h4 {
+    margin-top: 70px;
+}
