@@ -18,6 +18,7 @@
 
 .explore-row {
     width: 65%;
+    margin: 0 auto;
     
 }
 
@@ -29,6 +30,7 @@
     text-align: center;
     position: relative;
     margin-top: 50px;
+    padding-top: 25px;
 }
 
 .explore-buttons img {
@@ -43,6 +45,7 @@
 .explore-buttons span {
     position: absolute;
     bottom: 0;
+
 }
 
 .explore-word1 {
@@ -63,13 +66,19 @@
 
 .ellipse {
     width: 50px;
+    z-index: -1;
+    position: absolute;
+    top: 25%;
+    left: 33%;
 }
 
 .explore-icon {
 
 }
-.dollar-sign {
-
+#dollar-sign {
+    width: 25px;
+    margin-top: 10px;
+    margin-left: 33px;
 }
 
 .payment-description {
@@ -129,7 +138,7 @@
 }
 
 .bus-solutions {
-    margin: 0 auto;
+    margin: 0 auto 60px auto;
     text-align: center;
     
 }
@@ -139,22 +148,91 @@
 }
 
 .solution-images div div {
-    width: 125px;
-    height: 125px;
+    width: 115px;
+    height: 115px;
     border: 1px solid lightgrey;
     border-radius: 100%;
     text-align: center;
+    background: rgb(228 238 255);
 }
 
 .solution-image {
-    width: 70px;
-    margin-top: 35px;
+    width: 50px;
+    margin-top: 30px;
 }
 
-.solution-quad .col {
+.solution-image2 {
+    width: 70px;
+    margin-top: 30px;
+}
+
+.solution-item {
+    margin: 0 auto;
+    text-align: center;
+    height: 400px;
     
 }
 
-.solution-quad div div h4 {
-    margin-top: 70px;
+.solution-border {
+    margin: 0 auto;
+}
+
+.solution-h4 {
+    width: 200px;
+    margin: 20px auto 0 auto;
+}
+
+#solution-button {
+    width: 175px;
+    margin-top: 20px;
+    border-width: 2px;
+    font-weight: 600;
+    padding-right: 0;
+    padding-left: 34px;
+}
+
+#solution-paragraph {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 300px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#solution-arrow {
+    margin-left: 20px;
+    width: 26px;
+}
+
+#button {
+    background-color: rgb(130 207 56);
+    margin-right: 2%;
+    width: 12%;
+    height: 40px;
+}
+#button2 {
+    background-color: rgb(255 255 255);
+    color: rgb(3 66 241);
+    font-weight: bolder;
+    margin-left: 2%;
+    width: 12%;
+    height: 40px;
+    font-size: 15px;
+}
+.foot {
+    background-color: rgb(3 66 241);
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 50px;
+    color: white;
+}
+
+#footer {
+    --bs-gutter-x: 0rem;
+}
+
+#free {
+    margin-top: 50px;
 }
