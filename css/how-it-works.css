@@ -1,125 +1,3 @@
-
-.container-2{
-    
-    padding: 100px 150px 100px 150px;
-    color: white;
-}
-
-.container-1{
-    padding: 100px 150px 100px 150px;
-    color: white;
-}
-
-.titleworks{
-    text-align: center;
-    font-weight: bold;
-    margin-top: 5%;
-}
-
-.titleworks-1{
-    margin-top: 10%;
-    text-align: left;
-    margin-bottom: 15%;
-    margin-left: 15%;
-}
-
-.titleworks-2{
-    margin-top: 10%;
-    text-align: center;
-    margin-bottom: 15%;
-    margin-left: 1%;
-}
-
-.useful-text{
-    margin-left: 5%;
-    margin-right: 15%;
-}
-
-.article{
-    text-align: left;
-}
-
-.photo-wrapper{
-    
-    border: 1px solid black;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-    height: 500px;
-}
-
-.photo-wrapper-2{
-    
-    display: flex;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
-.information{
-    margin-top: 35px;
-    text-align: center;
-    margin-left: 35%;
-    margin-right: 35%;
-    color: black;
-    font-weight: bolder;
-}
-
-.information-1{
-    background-color: rgb(3 66 241);
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding-top: 5px;
-}
-
-.information-2{
-    margin-top: 35px;
-    text-align: center;
-    margin-left: 35%;
-    margin-right: 35%;
-    color: black;
-    font-weight: 750;
-    margin-bottom: 40px;
-}
-
-#box-2{
-    margin-left: 50px;
-}
-
-#button{
-    background-color: rgb(130 207 56);
-    margin-right: 2%;
-    width: 12%;
-    height: 40px;
-}
-
-#button2{
-    background-color: rgb(255 255 255);
-    color: rgb(3 66 241);
-    font-weight: bolder;
-    margin-left: 2%;
-    width: 12%;
-    height: 40px; 
-    font-size: 15px;  
-    
-}
-
-.foot{
-    background-color: rgb(3 66 241);
-    width: 100%;
-    height: 350px;
-    text-align: center;
-    margin-top: 5px;
-    padding-top: 50px;
-    color: white;
-}
-
-#footer{
-    --bs-gutter-x: 0rem;
-}
-
-#free{
-    margin-top: 50px;
-}
-
 #shrink-sz1 {
     height: 37.5px;
     width: 42.5%;
@@ -146,6 +24,10 @@
 
 .nav-item{
     margin-right: 40px;
+}
+
+.navbar-top {
+    margin-left: 150px;
 }
 
 #navlinks{
@@ -212,4 +94,243 @@
 
 .nav-link {
     color: grey;
+}
+
+.explore-double {
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.explore-double h4 {
+    margin-top: 40px;
+}
+
+.explore-double p {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.explore-row {
+    width: 65%;
+    margin: 0 auto;
+    
+}
+
+.explore-buttons {
+    width: 115px;
+    height: 115px;
+    border: solid black 1px;
+    border-radius: 14px;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    padding-top: 25px;
+}
+
+.explore-buttons img {
+    width: 40px;
+    margin: 0 auto;
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore-buttons span {
+    position: absolute;
+    bottom: 0;
+
+}
+
+.explore-word1 {
+    right: 20%;
+}
+
+.explore-word2 {
+    right: 30%;
+}
+
+.explore-word3 {
+    right: 20%;
+}
+
+.explore-word4 {
+    right: 25%;
+}
+
+.ellipse {
+    width: 50px;
+    z-index: -1;
+    position: absolute;
+    top: 25%;
+    left: 33%;
+}
+
+.explore-icon {
+
+}
+#dollar-sign {
+    width: 25px;
+    margin-top: 10px;
+    margin-left: 33px;
+}
+
+.payment-description {
+    margin: 125px 250px;
+    border: 2px rgb(197, 197, 197) solid;
+    border-radius: 20px;
+    
+}
+
+.payment-description div img {
+    margin: 150px 10px;
+    width: 500px;
+}
+
+.payment-infoboard {
+    background: rgb(3 66 241);
+    color: white;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+    padding-top: 90px;
+    padding-left: 50px;
+}
+
+.payment-infoboard h6 {
+    width: 55%;
+    margin-top: 30px;
+}
+
+.payment-infoboard div {
+    margin-top: 35px;
+}
+
+.payment-infoboard div p {
+    font-size: 13px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.paymentbutton {
+    width: 225px;
+    border-width: 2px;
+    border-radius: 7px;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.paymentbutton span {
+    margin-left: px;
+}
+
+#paymentbutton-img {
+    position: relative;
+    width: 32px;
+    height: auto;
+    filter: invert(1);
+    margin: 0 10px 0 0px;
+}
+
+.bus-solutions {
+    margin: 0 auto 60px auto;
+    text-align: center;
+    
+}
+
+.bus-solutions h5 {
+    font-weight: 700;
+}
+
+.solution-images div div {
+    width: 115px;
+    height: 115px;
+    border: 1px solid lightgrey;
+    border-radius: 100%;
+    text-align: center;
+    background: rgb(228 238 255);
+}
+
+.solution-image {
+    width: 50px;
+    margin-top: 30px;
+}
+
+.solution-image2 {
+    width: 70px;
+    margin-top: 30px;
+}
+
+.solution-item {
+    margin: 0 auto;
+    text-align: center;
+    height: 400px;
+    
+}
+
+.solution-border {
+    margin: 0 auto;
+}
+
+.solution-h4 {
+    width: 200px;
+    margin: 20px auto 0 auto;
+}
+
+#solution-button {
+    width: 175px;
+    margin-top: 20px;
+    border-width: 2px;
+    font-weight: 600;
+    padding-right: 0;
+    padding-left: 34px;
+}
+
+#solution-paragraph {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 300px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#solution-arrow {
+    margin-left: 20px;
+    width: 26px;
+}
+
+#button {
+    background-color: rgb(130 207 56);
+    margin-right: 2%;
+    width: 12%;
+    height: 40px;
+}
+#button2 {
+    background-color: rgb(255 255 255);
+    color: rgb(3 66 241);
+    font-weight: bolder;
+    margin-left: 2%;
+    width: 12%;
+    height: 40px;
+    font-size: 15px;
+}
+.foot {
+    background-color: rgb(3 66 241);
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 50px;
+    color: white;
+}
+
+#footer {
+    --bs-gutter-x: 0rem;
+}
+
+#free {
+    margin-top: 50px;
 }
